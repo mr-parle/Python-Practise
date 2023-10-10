@@ -178,12 +178,50 @@
 #
 
 
-# factioriall
+# # factioriall
+#
+# num = int(input("enter total num: "))
+# fact = 1
+# for i in range(1, num+1):
+#     fact = fact*i
+# print(fact)
 
+
+# # Factorial using recursion
+#
+# def fact(num):
+#     facto = 1
+#     if num == 1 or num == 0:
+#         return 1
+#     else:
+#         return num*fact(num-1)
+#
+#
+#
+# num = int(input("enter total num: "))
+# if num<0:
+#     print("cant find factorial of negetive number")
+# else:
+#     print(fact(num))
+
+
+# # even odd
+# num = int(input("enter total num: "))
+#
+# if num%2==0:
+#     print("even")
+# else:
+#     print("odd")
+
+
+# first n prime numbers
 num = int(input("enter total num: "))
-fact = 0
-for i in range(1, num):
-    fact = fact*i
-    # print(fact)
-
-
+lis = []
+for i in range(1, num+1):
+    if num>1:
+        for n in range(2, i):
+            if i % n == 0:
+                break
+            else:
+                print(i)
+# print(lis)
