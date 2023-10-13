@@ -196,7 +196,17 @@
 #     else:
 #         return num*fact(num-1)
 #
-#
+# ## first n prime numbers
+# num = int(input("enter total num: "))
+# lis = []
+# for i in range(1, num+1):
+#     if num > 1:
+#         for n in range(2, i):
+#             if i % n == 0:
+#                 break
+#             else:
+#                 print(i)
+# print(lis)
 #
 # num = int(input("enter total num: "))
 # if num<0:
@@ -214,14 +224,4 @@
 #     print("odd")
 
 
-# first n prime numbers
-num = int(input("enter total num: "))
-lis = []
-for i in range(1, num+1):
-    if num > 1:
-        for n in range(2, i):
-            if i % n == 0:
-                break
-            else:
-                print(i)
-# print(lis)
+
