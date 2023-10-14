@@ -196,17 +196,7 @@
 #     else:
 #         return num*fact(num-1)
 #
-# ## first n prime numbers
-# num = int(input("enter total num: "))
-# lis = []
-# for i in range(1, num+1):
-#     if num > 1:
-#         for n in range(2, i):
-#             if i % n == 0:
-#                 break
-#             else:
-#                 print(i)
-# print(lis)
+
 #
 # num = int(input("enter total num: "))
 # if num<0:
@@ -222,6 +212,35 @@
 #     print("even")
 # else:
 #     print("odd")
+
+## first n prime numbers
+
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    if num == 2:
+        return True
+    if num % 2 == 0:
+        return False
+    for i in range(3, int(num ** 0.5) + 1, 2):
+        if num % i == 0:
+            return False
+    return True
+
+
+def generate_primes(n):
+    prime_list = []
+    num = 2  # Start with the first prime number, 2
+    while len(prime_list) < n:
+        if is_prime(num):
+            prime_list.append(num)
+        num += 1
+    return prime_list
+n = int(input("enter total num: "))
+prime_numbers = generate_primes(n)
+print(f"The first {n} prime numbers are: {prime_numbers}")
+
 
 
 
