@@ -244,11 +244,11 @@
 
 # prime numbers in a given range
 
-def is_prime(num):
-    if num <= 1:
-        return False
-    if num >= 2:
-        return True
-    
+# def is_prime(num):
+#     if num <= 1:
+#         return False
+#     if num >= 2:
+#         return True
+#
 
 
