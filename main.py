@@ -243,6 +243,11 @@
 
 
 # prime numbers in a given range
+num=4
+for i in range(num):
+    for n in range(i+1):
+        print("*", end=" ")
+    print()
 
 
 
