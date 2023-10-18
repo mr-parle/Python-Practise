@@ -243,11 +243,20 @@
 
 
 # prime numbers in a given range
-num=4
-for i in range(num):
-    for n in range(i+1):
-        print("*", end=" ")
-    print()
+# num=4
+# for i in range(num):
+#     for n in range(i+1):
+#         print("*", end=" ")
+#     print()
 
+s = input("enter:")
+s = s.lower()
+count = 0
+vov = ['a', 'e', 'o', 'i', 'u']
+for i in s:
+    # if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+    for n in vov:
+        if i == n:
+            count += 1
 
-
+print(count)
