@@ -249,14 +249,69 @@
 #         print("*", end=" ")
 #     print()
 
-s = input("enter:")
-s = s.lower()
-count = 0
-vov = ['a', 'e', 'o', 'i', 'u']
-for i in s:
-    # if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
-    for n in vov:
-        if i == n:
-            count += 1
 
-print(count)
+# # to check if string contains vowels and how many
+# s = input("enter:")
+# s = s.lower()
+# count = 0
+# vov = ['a', 'e', 'o', 'i', 'u']
+# for i in s:
+#     # if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+#     for n in vov:
+#         if i == n:
+#             count += 1
+#
+# print(count)
+
+
+# # calculating power using POW method
+# import math
+# n1 = int(input("enter num1: "))
+# n2= int(input("enter num2: "))
+#
+# p=math.pow(n1, n2)
+# print(p
+#
+# # calculating power using POW method
+#
+# def poww(base, expo):
+#     result = 1
+#     while expo != 0:
+#         result = base * result
+#         expo-=1
+#     return result
+# base = int(input("enter base: "))
+# expo = int(input("enter expo: "))
+# print(poww(base,expo))
+
+# # square of a gicen number
+#
+# num = int(input("enter num: "))
+# print(num*num)
+
+# # cuve of a gicen number
+#
+# num = int(input("enter num: "))
+# print(num*num*num)
+
+# # # sqrt of a gicen number
+#
+# import math
+# num = int(input("enter num: "))
+# print(math.sqrt(num))
+
+# program to find teh lcm
+n1 = int(input("enter num1: "))
+n2= int(input("enter num2: "))
+greater=0
+if n1>n2:
+    greater= n1
+else:
+    greater= n2
+
+while (True) :
+    
+
+
+
+
