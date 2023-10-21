@@ -300,18 +300,23 @@
 # num = int(input("enter num: "))
 # print(math.sqrt(num))
 
-# program to find teh lcm
+# # program to find teh lcm
+# n1 = int(input("enter num1: "))
+# n2= int(input("enter num2: "))
+# greater=0
+# if n1>n2:
+#     greater= n1
+# else:
+#     greater= n2
+#
+# while (True) :
+#
+
+
 n1 = int(input("enter num1: "))
-n2= int(input("enter num2: "))
-greater=0
-if n1>n2:
-    greater= n1
-else:
-    greater= n2
-
-while (True) :
-    
-
-
-
+count=0
+for i in range(2,n1):
+    if n1%i==0:
+        count+=1
+print(count)
 
