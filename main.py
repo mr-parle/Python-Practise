@@ -314,9 +314,8 @@
 
 
 n1 = int(input("enter num1: "))
-count=0
-for i in range(2,n1):
-    if n1%i==0:
-        count+=1
+count = 0
+for i in range(2, n1):
+    if n1 % i == 0:
+        count += 1
 print(count)
-
