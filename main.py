@@ -313,9 +313,66 @@
 #
 
 
-n1 = int(input("enter num1: "))
-count = 0
-for i in range(2, n1):
-    if n1 % i == 0:
-        count += 1
-print(count)
+# n1 = int(input("enter num1: "))
+# count = 0
+# for i in range(2, n1):
+#     if n1 % i == 0:
+#         count += 1
+# print(count)
+
+
+# # delete vowvels from string
+#
+# st = input("enetr string: ")
+# vow = ['a', 'e', 'i', 'o', 'u']
+# print(st)
+#
+# for i in st:
+#     for n in vow:
+#         if i == n:
+#             st = st.replace(n, "")
+# print(st)
+
+#
+# # check th enumber of vowel and consonent
+# st = input("enetr string: ")
+# voww = "aeiouAEIOU"
+# num= "1234567890"
+# spec = "!@#$%^&*()_-+=[]{}|;:'\",.<>?`~"
+#
+# vov_c = 0
+# con_c = 0
+# spl = 0
+# numb=0
+#
+# for i in st:
+#     if i.isalpha():
+#         if i in voww:
+#             vov_c += 1
+#         else:
+#             con_c += 1
+#     elif i in spec:
+#             spl += 1
+#     elif i in num:
+#             numb += 1
+#
+# print(f"vowels: ", vov_c, " consonants: ", con_c, " spl char", spl, " num: ", numb)
+
+# # check if strings are anagram
+# st1=input("enter first string: ")
+# st2=input("enter second string: ")
+#
+# if sorted(st1) == sorted(st2):
+#     print("the strings are anagram")
+# else:
+#     print("not anagaram")
+
+
+# check if strings are palindrome
+st1=input("enter first string: ")
+st2=input("enter second string: ")
+
+if st1 == st2[::-1]:
+    print("the strings are palindrome")
+else:
+    print("not palindrome")
