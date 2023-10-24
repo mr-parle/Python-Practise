@@ -367,12 +367,53 @@
 # else:
 #     print("not anagaram")
 
+#
+# # check if strings are palindrome
+# st1=input("enter first string: ")
+# st2=input("enter second string: ")
+#
+# if st1 == st2[::-1]:
+#     print("the strings are palindrome")
+# else:
+#     print("not palindrome")
+#
+# def count_char_freq(input):
+# dic = {}
+# count = 0
+# for i in input:
+#     if i in input:
+#         count += 1
+#     else:
+#         count = 1
+#
+# string = input("Please Enter a string: ")
+# freq_dict = {}
+# # Count the frequency of each character
+# for char in string:
+#     if char in freq_dict:
+#         freq_dict[char] += 1
+#
+#     else:
+#         freq_dict[char] = 1
+# max_freq = max(freq_dict.values())
+# # Print the characters with maximum frequency
+# for char in freq_dict:
+#     if freq_dict[char] == max_freq:
+#         print(char, end=' ')
 
-# check if strings are palindrome
-st1=input("enter first string: ")
-st2=input("enter second string: ")
 
-if st1 == st2[::-1]:
-    print("the strings are palindrome")
-else:
-    print("not palindrome")
+# def replace_first_vowel(inpt):
+#     vow = "AEIOUaeiou"
+#     for i in inpt:
+#         if i in vow:
+#             inpt=inpt.replace(i, "-")
+#             break
+#
+#     return inpt
+#
+#
+# input_st = input("enter string: ")
+#
+# print(replace_first_vowel(input_st))
+
+
