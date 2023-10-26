@@ -240,8 +240,8 @@
 # n = int(input("enter total num: "))
 # prime_numbers = generate_primes(n)
 # print(f"The first {n} prime numbers are: {prime_numbers}")
-
-
+# 8
+#
 # prime numbers in a given range
 # num=4
 # for i in range(num):
@@ -289,7 +289,7 @@
 # num = int(input("enter num: "))
 # print(num*num)
 
-# # cuve of a gicen number
+# # cube of a given number
 #
 # num = int(input("enter num: "))
 # print(num*num*num)
