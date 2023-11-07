@@ -9,9 +9,18 @@
 # print(rev)
 
 
-# armstrong number
+# num=123
+# rev = 0
+# while num!=0:
+#     temp=num%10
+#     rev= rev * 10 + temp
+#     num//=10
+
+
 #
-# num = 15
+# # armstrong number
+#
+# num = 153
 # check = num
 # summ = 0
 # while num != 0:
@@ -95,9 +104,9 @@
 # rev = 0
 # def palindrome(num):
 #     while num != 0:
-#     temp = num % 10
-#     rev = rev * 10 + temp
-#     num //= 10
+    #     temp = num % 10
+    #     rev = rev * 10 + temp
+    #     num //= 10
 
 
 # # max num
@@ -416,4 +425,32 @@
 #
 # print(replace_first_vowel(input_st))
 
+# num =5
+# first, second=0,1
+# for i in range(0,num):
+#     if i > num:
+#         result=1
+#         break
+#     else:
+#         result=first+second
+#         first=second
+#         second=result
+#     print(result)
 
+
+# num=5
+# fact=1
+# for i in range(1,num+1):
+#     fact=fact*i
+# # print(fact)
+#
+#
+# # Initializing lists
+# test_list3 = [1, 4, 5, 6, 5]
+# test_list4 = [3, 5, 7, 2, 5]
+#
+# # using + operator to concat
+# test_list3 = test_list3 + test_list4
+#
+# # Printing concatenated list
+# print(test_list3)
